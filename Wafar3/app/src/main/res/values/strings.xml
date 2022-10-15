@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Wafar</string>
+    <string-array name="departments">
+        <item>Cameras</item>
+        <item>Phones</item>
+        <item>Shoes</item>
+        <item>Clothes</item>
+        <item>laptops</item>
+        <item>Appliances</item>
+        <item>Detergents</item>
+    </string-array>
+    <string-array name="Sale">
+        <item>20%</item>
+        <item>10%</item>
+        <item>30%</item>
+        <item>50%</item>
+        <item>10%</item>
+        <item>20%</item>
+        <item>10%</item>
+    </string-array>
+    <string-array name="Products">
+        <item>Nikon FX-format D750 - 24.3 MP, SLR Camera 24-120mm Lens, Black</item>
+        <item>Nikon D5600 AF-P 18-55mm 3.5-5.6G VR Lens Kit - 24.2 MP DSLR Camera</item>
+        <item>Nikon D750 Body Only - 24.3 MP, SLR Camera, Black</item>
+        <item>Canon EOS M50 EF-M 15-45mm F3.5-6.3 IS STM lens, 24.1 MP, 4K, Mirrorless Digital Camera, Black</item>
+        <item>Canon EOS 2000D 18-55 IS, 24.1 MP, DSLR Camera, Black</item>
+        <item>Canon EOS 800D EF-S 18-135mm F3.5-5.6 IS STM lens - 24.2 MP, DSLR Camera, Black - 2724444820144</item>
+
+
+    </string-array>
+    <string-array name="price">
+        <item>32,860.00 EGP </item>
+        <item>15,999.00 EGP </item>
+        <item>22,500.00 EGP </item>
+        <item>10,875.00 EGP </item>
+        <item>6,600.00 EGP</item>
+        <item>17,400.00 EGP </item>
+
+    </string-array>
+
+</resources>
