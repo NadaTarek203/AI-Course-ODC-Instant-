@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoriesPage"
+
+    android:padding="20dp"
+
+    >
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/search_background"
+        android:iconifiedByDefault="false"
+        android:queryBackground="@android:color/transparent"
+        android:queryHint="Search Here..." />
+
+    <ImageButton
+        android:id="@+id/mic"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/searchView"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_btn_speak_now"
+        />
+
+    <ImageButton
+        android:id="@+id/camera"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_toRightOf="@id/mic"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_menu_camera" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="100dp"
+
+       android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        android:scrollbars="none" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:background="@color/baby_blue"
+        android:src="@drawable/ic_baseline_shopping_cart_24" />
+</RelativeLayout>

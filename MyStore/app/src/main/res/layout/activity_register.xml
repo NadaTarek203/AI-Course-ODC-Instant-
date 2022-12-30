@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    >
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="252dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="250dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/p8" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="45dp"
+        android:textColor="@color/mid"
+        android:textStyle="bold"
+        android:layout_marginTop="240dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/remail"
+        android:padding="15dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_centerHorizontal="true"
+
+        android:hint="Email"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:background="@drawable/edittext" />
+    <EditText
+        android:id="@+id/rpassword"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:background="@drawable/edittext"/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:hint="User Name"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:background="@drawable/edittext"/>
+    <EditText
+        android:id="@+id/rjop"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:hint="your job"
+        android:drawableLeft="@drawable/ic_baseline_work_24"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:background="@drawable/edittext"/>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="50dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+    </RadioGroup>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Select Your birthday"
+
+    android:textColor="@color/black"
+    android:layout_marginTop="609dp"
+    android:layout_marginLeft="40dp"
+    />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="255dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="540dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:layout_constraintVertical_bias="0.371" />
+    <Button
+        android:id="@+id/rRegisterbtn"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="800dp"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:text="Sign Up"
+        />
+    <TextView
+        android:id="@+id/haveAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Have an account"
+        android:layout_marginTop="850dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

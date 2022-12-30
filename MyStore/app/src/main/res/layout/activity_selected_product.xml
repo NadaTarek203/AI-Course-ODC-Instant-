@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectedProduct"
+    android:background="@color/cardview_shadow_end_color"
+    android:paddingTop="20dp">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="550dp"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/back3"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="details"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="160dp"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/xx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_below="@+id/details"
+        android:text="$"
+        />
+    <TextView
+        android:id="@+id/ProdPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/xx"
+        android:text="15"
+        android:textSize="24dp"
+        android:layout_below="@+id/details"/>
+
+
+</RelativeLayout>
+    <ImageView
+        android:id="@+id/prodImg"
+        android:layout_width="350dp"
+        android:src="@drawable/shoes6"
+        android:layout_height="350dp"
+        android:layout_marginTop="98dp"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
